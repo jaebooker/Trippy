@@ -18,7 +18,9 @@ class ViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "addTripSegue" {
             let mainVC = segue.destination as! TableViewController
-            mainVC.trip = "Coming back!"
+            if trippyField.text != nil {
+                mainVC.trip.append(trippyField.text!)
+            }
         }
     }
 }

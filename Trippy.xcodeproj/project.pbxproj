@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D1F16A32287B54500B36086 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1F16A22287B54500B36086 /* TableViewCell.swift */; };
 		0D6180C12287945500E2EE6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6180C02287945500E2EE6D /* AppDelegate.swift */; };
 		0D6180C32287945500E2EE6D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6180C22287945500E2EE6D /* ViewController.swift */; };
 		0D6180C62287945500E2EE6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D6180C42287945500E2EE6D /* Main.storyboard */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D1F16A22287B54500B36086 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		0D6180BD2287945500E2EE6D /* Trippy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trippy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D6180C02287945500E2EE6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0D6180C22287945500E2EE6D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 				0D6180CF2287945C00E2EE6D /* Info.plist */,
 				0D6180C72287945500E2EE6D /* Trippy.xcdatamodeld */,
 				0D6180F122879A9E00E2EE6D /* TableViewController.swift */,
+				0D1F16A22287B54500B36086 /* TableViewCell.swift */,
 			);
 			path = Trippy;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D1F16A32287B54500B36086 /* TableViewCell.swift in Sources */,
 				0D6180C32287945500E2EE6D /* ViewController.swift in Sources */,
 				0D6180C12287945500E2EE6D /* AppDelegate.swift in Sources */,
 				0D6180C92287945500E2EE6D /* Trippy.xcdatamodeld in Sources */,
