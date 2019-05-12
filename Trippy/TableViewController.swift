@@ -9,10 +9,13 @@
 import UIKit
 
 class TableViewController: UITableViewController {
+    
+    var trip: String = ""
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        trip = "trippy"
+        print(trip)
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
@@ -31,7 +34,9 @@ class TableViewController: UITableViewController {
         // #warning Incomplete implementation, return the number of rows
         return 0
     }
-    @IBAction func unwindToMain(_ sender: UIStoryboardSegue) {}
+    @IBAction func unwindToMain(_ sender: UIStoryboardSegue) {
+        print(trip)
+    }
     /*
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
